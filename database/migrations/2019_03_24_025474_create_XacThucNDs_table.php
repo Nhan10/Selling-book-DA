@@ -16,6 +16,9 @@ class CreateXacThucNDsTable extends Migration
         Schema::create('XacThucNDs', function (Blueprint $table) {
             $table->bigIncrements('MaXTND');
             $table->unsignedBigInteger('MaND');
+            $table->foreign('MaND')
+                ->references('MaND')->on('NguoiDungs')
+                ->onDelete('cascade');
             $table->string('token');
             $table->timestamps();
         });

@@ -17,6 +17,9 @@ class CreateLoaiSPsTable extends Migration
             $table->bigIncrements('MaLoai');
             $table->string('TenLoai');
             $table->unsignedBigInteger('MaNSP');
+            $table->foreign('MaNSP')
+                ->references('MaNSP')->on('NhomSPs')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

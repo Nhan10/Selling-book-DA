@@ -19,6 +19,9 @@ class CreateNhaCungCapsTable extends Migration
             $table->string('DiaChi');
             $table->string('SDT',15);
             $table->unsignedBigInteger('MaSP');
+            $table->foreign('MaSP')
+                ->references('MaSP')->on('SanPhams')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

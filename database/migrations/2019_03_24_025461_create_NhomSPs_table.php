@@ -17,6 +17,9 @@ class CreateNhomSPsTable extends Migration
             $table->bigIncrements('MaNSP');
             $table->string('TenNSP');
             $table->unsignedBigInteger('MaDM');
+            $table->foreign('MaDM')
+                ->references('MaDM')->on('DanhMucSPs')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

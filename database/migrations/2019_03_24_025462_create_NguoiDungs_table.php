@@ -24,6 +24,9 @@ class CreateNguoiDungsTable extends Migration
             $table->string('SDT',15);
             $table->boolean('active')->default(false);
             $table->unsignedBigInteger('MaLND');
+            $table->foreign('MaLND')
+                ->references('MaLND')->on('LoaiNDs')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

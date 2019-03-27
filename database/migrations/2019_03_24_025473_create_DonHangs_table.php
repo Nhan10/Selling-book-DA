@@ -16,6 +16,9 @@ class CreateDonHangsTable extends Migration
         Schema::create('DonHangs', function (Blueprint $table) {
             $table->bigIncrements('MaDH');
             $table->unsignedBigInteger('MaND');
+            $table->foreign('MaND')
+                ->references('MaND')->on('NguoiDungs')
+                ->onDelete('cascade');
             $table->double('TongTien');
             $table->string('TenKH');
             $table->string('DiaChi');
@@ -23,6 +26,9 @@ class CreateDonHangsTable extends Migration
             $table->dateTime('NgayDat');
             $table->dateTime('NgayGiao');
             $table->unsignedBigInteger('MaTT');
+            $table->foreign('MaTT')
+                ->references('MaTT')->on('TrangThais')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

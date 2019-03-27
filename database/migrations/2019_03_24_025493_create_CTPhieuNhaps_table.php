@@ -16,7 +16,13 @@ class CreateCTPhieuNhapsTable extends Migration
         Schema::create('CTPhieuNhaps', function (Blueprint $table) {
             $table->bigIncrements('MaCTPN');
             $table->unsignedBigInteger('MaPN');
+            $table->foreign('MaPN')
+                ->references('MaPN')->on('PhieuNhaps')
+                ->onDelete('cascade');
             $table->unsignedBigInteger('MaSP');
+            $table->foreign('MaSP')
+                ->references('MaSP')->on('SanPhams')
+                ->onDelete('cascade');
             $table->integer('SoLuong');
             $table->text('GhiChu');
             $table->timestamps();

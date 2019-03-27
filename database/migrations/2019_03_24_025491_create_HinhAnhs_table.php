@@ -16,6 +16,9 @@ class CreateHinhAnhsTable extends Migration
         Schema::create('HinhAnhs', function (Blueprint $table) {
             $table->bigIncrements('MaHA');
             $table->unsignedBigInteger('MaSP');
+            $table->foreign('MaSP')
+                ->references('MaSP')->on('SanPhams')
+                ->onDelete('cascade');
             $table->string('DuongDan');
             $table->timestamps();
         });
