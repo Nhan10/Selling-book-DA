@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class CTPhieuNhaps extends Model
 {
-    //
+    protected $primaryKey = 'MaCTPN';
 }

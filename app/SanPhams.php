@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class SanPhams extends Model
 {
-    //
+    protected $primaryKey = 'MaSP';
 }

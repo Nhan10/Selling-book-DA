@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class CTDonHangs extends Model
 {
-    //
+    protected $primaryKey = 'MaCTDH';
 }

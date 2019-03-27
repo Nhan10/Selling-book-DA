@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class TrangThais extends Model
 {
-    //
+    protected $primaryKey = 'MaTT';
 }
