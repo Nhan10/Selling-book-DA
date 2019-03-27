@@ -9,4 +9,9 @@ class HinhAnhs extends Model
     protected $primaryKey = 'MaHA';
 
     protected $fillable = ['MaSP','DuongDan'];
+
+    public function sanPham()
+    {
+        return $this->belongsTo('App\SanPhams','MaSP','MaHA');
+    }
 }

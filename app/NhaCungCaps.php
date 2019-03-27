@@ -9,4 +9,9 @@ class NhaCungCaps extends Model
     protected $primaryKey = 'MaNCC';
 
     protected $fillable = ['TenNCC','DiaChi','SDT','MaSP'];
+
+    public function sanPham()
+    {
+        return $this->belongsTo('App\SanPhams','MaSP','MaNCC');
+    }
 }

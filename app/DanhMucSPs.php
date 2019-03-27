@@ -9,4 +9,9 @@ class DanhMucSPs extends Model
     protected $primaryKey = 'MaDM';
 
     protected $fillable = ['TenDM'];
+
+    public function nhomSPs()
+    {
+        return $this->hasMany('App\NhomSPs','MaDM');
+    }
 }
