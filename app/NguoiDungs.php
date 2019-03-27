@@ -17,7 +17,7 @@ class NguoiDungs extends Authenticatable
      */
     protected $primaryKey = 'MaND';
     protected $fillable = [
-        'name', 'email', 'password',
+        'TenND', 'email', 'password','DiaChi','SDT','active','MaLND'
     ];
 
     /**
