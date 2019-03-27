@@ -6,7 +6,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
+class NguoiDungs extends Authenticatable
 {
     use Notifiable;
 
@@ -15,8 +15,9 @@ class User extends Authenticatable
      *
      * @var array
      */
+    protected $primaryKey = 'MaND';
     protected $fillable = [
-        'name', 'email', 'password',
+        'TenND', 'email', 'password','DiaChi','SDT','active','MaLND'
     ];
 
     /**
@@ -36,4 +37,29 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function loaiND()
+    {
+        return $this->belongsTo('App\LoaiND','MaLND','MaND');
+    }
+
+    public function xacThucNDs()
+    {
+        return $this->hasMany('App\XacThucND','MaND');
+    }
+
+    public function binhLuans()
+    {
+        return $this->hasMany('App\BinhLuans','MaND');
+    }
+
+    public function phieuNhaps()
+    {
+        return $this->hasMany('App\PhieuNhaps','MaND');
+    }
+
+    public function donHangs()
+    {
+        return $this->hasMany('App\DonHangs','MaND');
+    }
 }
