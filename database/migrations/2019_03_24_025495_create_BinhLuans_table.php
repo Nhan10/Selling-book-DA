@@ -13,15 +13,15 @@ class CreateBinhLuansTable extends Migration
      */
     public function up()
     {
-        Schema::create('BinhLuans', function (Blueprint $table) {
+        Schema::create('BinhLuan', function (Blueprint $table) {
             $table->bigIncrements('MaBL');
             $table->unsignedBigInteger('MaND');
             $table->foreign('MaND')
-                ->references('MaND')->on('NguoiDungs')
+                ->references('MaND')->on('NguoiDung')
                 ->onDelete('cascade');
             $table->unsignedBigInteger('MaSP');
             $table->foreign('MaSP')
-                ->references('MaSP')->on('SanPhams')
+                ->references('MaSP')->on('SanPham')
                 ->onDelete('cascade');
             $table->text('NoiDung');
             $table->dateTime('NgayBL');

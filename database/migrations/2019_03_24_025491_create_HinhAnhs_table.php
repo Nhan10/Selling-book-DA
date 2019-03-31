@@ -13,11 +13,11 @@ class CreateHinhAnhsTable extends Migration
      */
     public function up()
     {
-        Schema::create('HinhAnhs', function (Blueprint $table) {
+        Schema::create('HinhAnh', function (Blueprint $table) {
             $table->bigIncrements('MaHA');
             $table->unsignedBigInteger('MaSP');
             $table->foreign('MaSP')
-                ->references('MaSP')->on('SanPhams')
+                ->references('MaSP')->on('SanPham')
                 ->onDelete('cascade');
             $table->string('DuongDan');
             $table->timestamps();

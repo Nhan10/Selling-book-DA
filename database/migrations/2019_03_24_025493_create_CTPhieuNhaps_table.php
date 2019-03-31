@@ -13,16 +13,17 @@ class CreateCTPhieuNhapsTable extends Migration
      */
     public function up()
     {
-        Schema::create('CTPhieuNhaps', function (Blueprint $table) {
+        Schema::create('CTPhieuNhap', function (Blueprint $table) {
             $table->bigIncrements('MaCTPN');
             $table->unsignedBigInteger('MaPN');
             $table->foreign('MaPN')
-                ->references('MaPN')->on('PhieuNhaps')
+                ->references('MaPN')->on('PhieuNhap')
                 ->onDelete('cascade');
             $table->unsignedBigInteger('MaSP');
             $table->foreign('MaSP')
-                ->references('MaSP')->on('SanPhams')
+                ->references('MaSP')->on('SanPham')
                 ->onDelete('cascade');
+            $table->double('GiaNhap');
             $table->integer('SoLuong');
             $table->text('GhiChu');
             $table->timestamps();

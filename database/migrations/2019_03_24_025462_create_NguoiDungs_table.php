@@ -13,7 +13,7 @@ class CreateNguoiDungsTable extends Migration
      */
     public function up()
     {
-        Schema::create('NguoiDungs', function (Blueprint $table) {
+        Schema::create('NguoiDung', function (Blueprint $table) {
             $table->bigIncrements('MaND');
             $table->string('TenND');
             $table->string('email')->unique();
@@ -25,7 +25,7 @@ class CreateNguoiDungsTable extends Migration
             $table->boolean('active')->default(false);
             $table->unsignedBigInteger('MaLND');
             $table->foreign('MaLND')
-                ->references('MaLND')->on('LoaiNDs')
+                ->references('MaLND')->on('LoaiND')
                 ->onDelete('cascade');
             $table->timestamps();
         });

@@ -13,7 +13,7 @@ class CreateTrangThaisTable extends Migration
      */
     public function up()
     {
-        Schema::create('TrangThais', function (Blueprint $table) {
+        Schema::create('TrangThai', function (Blueprint $table) {
             $table->bigIncrements('MaTT');
             $table->string('TenTT');
             $table->timestamps();

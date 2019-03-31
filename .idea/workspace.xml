@@ -2,23 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d74c20e-f884-4cf3-90df-6e9dd98a93aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/BinhLuans.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/BinhLuans.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/CTDonHangs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CTDonHangs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/CTPhieuNhaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CTPhieuNhaps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/CongTyPhatHanhs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CongTyPhatHanhs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DanhMucSPs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DanhMucSPs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DonHangs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DonHangs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/HinhAnhs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/HinhAnhs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DanhMucSPController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LoaiSPController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NhomSPController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TacGiaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/NhaCungCap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/danhmuc/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/danhmuc/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BinhLuans.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/BinhLuan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CTDonHangs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CTDonHang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CTPhieuNhaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CTPhieuNhap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CongTyPhatHanhs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DanhMucSPs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DanhMucSP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DonHangs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DonHang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/HinhAnhs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/HinhAnh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BinhLuansController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CTDonHangsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CTDonHangController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CTPhieuNhapsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CTPhieuNhapController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CongTyPhatHanhsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DanhMucSPsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DonHangsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DonHangController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HinhAnhsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HinhAnhController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoaiSPsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NhaCungCapsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NhaCungCapController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NhomSPsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PhieuNhapsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PhieuNhapController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SanPhamsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SanPhamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TacGiasController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TrangThaisController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TrangThaiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/LoaiND.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LoaiND.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/LoaiSPs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LoaiSPs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/NguoiDungs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/NguoiDungs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/NhaCungCaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/NhaCungCaps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/NhomSPs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/NhomSPs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/PhieuNhaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/PhieuNhaps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/SanPhams.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SanPhams.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/TacGias.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TacGias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/TrangThais.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TrangThais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LoaiSPs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LoaiSP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/NguoiDungs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/NguoiDung.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/NhaCungCaps.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/NhomSPs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/NhomSP.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PhieuNhaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/PhieuNhap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/SanPhams.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/SanPham.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TacGias.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TacGia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TrangThais.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TrangThai.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/XacThucND.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/XacThucND.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025440_create_LoaiNDs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025440_create_LoaiNDs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025441_create_CongTyPhatHanhs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025442_create_DanhMucSPs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025442_create_DanhMucSPs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025443_create_TrangThais_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025443_create_TrangThais_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025444_create_TacGias_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025444_create_TacGias_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025461_create_NhomSPs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025461_create_NhomSPs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025462_create_NguoiDungs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025462_create_NguoiDungs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025471_create_LoaiSPs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025471_create_LoaiSPs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025472_create_PhieuNhaps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025472_create_PhieuNhaps_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025473_create_DonHangs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025473_create_DonHangs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025474_create_XacThucNDs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025474_create_XacThucNDs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025481_create_SanPhams_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025481_create_SanPhams_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025491_create_HinhAnhs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025491_create_HinhAnhs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025492_create_NhaCungCaps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025475_create_NhaCungCaps_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025493_create_CTPhieuNhaps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025493_create_CTPhieuNhaps_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025494_create_CTDonHangs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025494_create_CTDonHangs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_24_025495_create_BinhLuans_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_24_025495_create_BinhLuans_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,94 +72,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/LoaiND.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="480">
+              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/LoaiSPs.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/NguoiDungs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-              <folding>
-                <element signature="e#23#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/NhaCungCaps.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/NhomSPs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/PhieuNhaps.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/SanPhams.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/TacGias.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/TrangThais.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="278">
+              <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/XacThucND.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TacGiaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="2120">
+              <caret line="107" column="61" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -132,45 +106,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_NguoiDungs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025440_create_LoaiNDs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_030253_create_XacThucNDs_table.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_032935_create_danh_muc_s_ps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_033147_create_nhom_s_ps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_033147_create_NhomSPs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_033357_create_LoaiSPs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_052815_create_CongTyPhatHanhs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_053049_create_TacGias_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_053402_create_TrangThais_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_053518_create_SanPhams_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_054509_create_HinhAnhs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_054659_create_NhaCungCaps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_054916_create_PhieuNhaps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_055151_create_CTPhieuNhaps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_055509_create_BinhLuans_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_055747_create_DonHangs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_060226_create_CTDonHangs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025461_create_NhomSPs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025462_create_NguoiDungs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025471_create_LoaiSPs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025472_create_PhieuNhaps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025473_create_DonHangs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025474_create_XacThucNDs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025481_create_SanPhams_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025491_create_HinhAnhs_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/loaisanpham/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/loaisanpham/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/loaisanpham/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoaiSPsController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025492_create_NhaCungCaps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025493_create_CTPhieuNhaps_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025494_create_CTDonHangs_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025495_create_BinhLuans_table.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tacgia/list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tacgia/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/tacgia/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TacGiasController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025440_create_LoaiNDs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025442_create_DanhMucSPs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025443_create_TrangThais_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025444_create_TacGias_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025475_create_NhaCungCaps_table.php" />
         <option value="$PROJECT_DIR$/app/BinhLuans.php" />
         <option value="$PROJECT_DIR$/app/CTDonHangs.php" />
         <option value="$PROJECT_DIR$/app/CTPhieuNhaps.php" />
         <option value="$PROJECT_DIR$/app/DanhMucSPs.php" />
-        <option value="$PROJECT_DIR$/app/CongTyPhatHanhs.php" />
         <option value="$PROJECT_DIR$/app/DonHangs.php" />
         <option value="$PROJECT_DIR$/app/HinhAnhs.php" />
         <option value="$PROJECT_DIR$/app/LoaiND.php" />
@@ -183,6 +137,26 @@
         <option value="$PROJECT_DIR$/app/TacGias.php" />
         <option value="$PROJECT_DIR$/app/TrangThais.php" />
         <option value="$PROJECT_DIR$/app/XacThucND.php" />
+        <option value="$PROJECT_DIR$/app/DanhMucSP.php" />
+        <option value="$PROJECT_DIR$/app/DonHang.php" />
+        <option value="$PROJECT_DIR$/app/PhieuNhap.php" />
+        <option value="$PROJECT_DIR$/app/TacGia.php" />
+        <option value="$PROJECT_DIR$/app/TrangThai.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025461_create_NhomSPs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025462_create_NguoiDungs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025471_create_LoaiSPs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025472_create_PhieuNhaps_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025473_create_DonHangs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025474_create_XacThucNDs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025481_create_SanPhams_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025491_create_HinhAnhs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025493_create_CTPhieuNhaps_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025494_create_CTDonHangs_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_025495_create_BinhLuans_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DanhMucSPController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoaiSPController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NhomSPController.php" />
       </list>
     </option>
   </component>
@@ -267,9 +241,9 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -289,6 +263,45 @@
               <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selling-book-DA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selling-book-DA" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="tacgia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,23 +346,32 @@
       <updated>1553395490201</updated>
       <workItem from="1553395500780" duration="7451000" />
       <workItem from="1553590217920" duration="599000" />
-      <workItem from="1553661672741" duration="7033000" />
+      <workItem from="1553661672741" duration="7938000" />
+      <workItem from="1553674778120" duration="6032000" />
+      <workItem from="1553692056870" duration="7150000" />
+      <workItem from="1553752678096" duration="4511000" />
+      <workItem from="1553761663232" duration="6789000" />
+      <workItem from="1553851676425" duration="9738000" />
+      <workItem from="1553871381376" duration="1550000" />
+      <workItem from="1553927716778" duration="4552000" />
+      <workItem from="1554006958377" duration="744000" />
+      <workItem from="1554026673966" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15083000" />
+    <option name="totallyTimeSpent" value="59411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2932886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -370,274 +392,318 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoaiNDController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/tacgia/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025440_create_LoaiNDs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025441_create_CongTyPhatHanhs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025442_create_DanhMucSPs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025443_create_TrangThais_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025444_create_TacGias_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025461_create_NhomSPs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025462_create_NguoiDungs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="495">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025463_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025471_create_LoaiSPs_table.php">
+    <entry file="file://$PROJECT_DIR$/app/BinhLuan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="160">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025473_create_DonHangs_table.php">
+    <entry file="file://$PROJECT_DIR$/app/CTDonHang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DonHang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/HinhAnh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LoaiSP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NguoiDung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NhomSP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NhaCungCap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/PhieuNhap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TacGia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TrangThai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/XacThucND.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/SanPham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025440_create_LoaiNDs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025442_create_DanhMucSPs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025443_create_TrangThais_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025444_create_TacGias_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025461_create_NhomSPs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="20" selection-end-column="38" />
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025462_create_NguoiDungs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025471_create_LoaiSPs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025472_create_PhieuNhaps_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025474_create_XacThucNDs_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="340">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025481_create_SanPhams_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        <state relative-caret-position="440">
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025491_create_HinhAnhs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025492_create_NhaCungCaps_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025494_create_CTDonHangs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025495_create_BinhLuans_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="420">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025493_create_CTPhieuNhaps_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025472_create_PhieuNhaps_table.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025475_create_NhaCungCaps_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="260">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_025473_create_DonHangs_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/BinhLuans.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/CTDonHangs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/CTPhieuNhaps.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/CongTyPhatHanhs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DanhMucSPs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/DonHangs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/HinhAnhs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="540">
+          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/LoaiND.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="160">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/LoaiSPs.php">
+    <entry file="file://$PROJECT_DIR$/app/CTPhieuNhap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="160">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/NguoiDungs.php">
+    <entry file="file://$PROJECT_DIR$/app/DanhMucSP.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+        <state relative-caret-position="160">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BinhLuanController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CTDonHangController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CTPhieuNhapController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DanhMucSPController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
           <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
+            <element signature="e#40#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/NhaCungCaps.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DonHangController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HinhAnhController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoaiNDController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NhaCungCapController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NhomSPController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="-80">
+          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/NhomSPs.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhieuNhapController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrangThaiController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/XacThucNDController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SanPhamController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoaiSPController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="35">
+          <caret line="97" column="48" selection-start-line="97" selection-start-column="48" selection-end-line="97" selection-end-column="48" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/PhieuNhaps.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="480">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/SanPhams.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        <state relative-caret-position="278">
+          <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TacGias.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TacGiaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/TrangThais.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/XacThucND.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="2120">
+          <caret line="107" column="61" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
         </state>
       </provider>
     </entry>

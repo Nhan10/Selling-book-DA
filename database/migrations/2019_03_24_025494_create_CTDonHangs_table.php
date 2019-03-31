@@ -13,17 +13,16 @@ class CreateCTDonHangsTable extends Migration
      */
     public function up()
     {
-        Schema::create('CTDonHangs', function (Blueprint $table) {
+        Schema::create('CTDonHang', function (Blueprint $table) {
             $table->bigIncrements('MaCTDH');
             $table->unsignedBigInteger('MaDH');
             $table->foreign('MaDH')
-                ->references('MaDH')->on('DonHangs')
+                ->references('MaDH')->on('DonHang')
                 ->onDelete('cascade');
             $table->unsignedBigInteger('MaSP');
             $table->foreign('MaSP')
-                ->references('MaSP')->on('SanPhams')
+                ->references('MaSP')->on('SanPham')
                 ->onDelete('cascade');
-            $table->string('TenSP');
             $table->double('Gia');
             $table->integer('SoLuong');
             $table->timestamps();

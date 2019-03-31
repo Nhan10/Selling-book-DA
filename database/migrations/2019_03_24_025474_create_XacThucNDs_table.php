@@ -13,11 +13,11 @@ class CreateXacThucNDsTable extends Migration
      */
     public function up()
     {
-        Schema::create('XacThucNDs', function (Blueprint $table) {
+        Schema::create('XacThucND', function (Blueprint $table) {
             $table->bigIncrements('MaXTND');
             $table->unsignedBigInteger('MaND');
             $table->foreign('MaND')
-                ->references('MaND')->on('NguoiDungs')
+                ->references('MaND')->on('NguoiDung')
                 ->onDelete('cascade');
             $table->string('token');
             $table->timestamps();

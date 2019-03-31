@@ -13,18 +13,18 @@ class CreateSanPhamsTable extends Migration
      */
     public function up()
     {
-        Schema::create('SanPhams', function (Blueprint $table) {
+        Schema::create('SanPham', function (Blueprint $table) {
             $table->bigIncrements('MaSP');
             $table->unsignedBigInteger('MaLoai');
             $table->foreign('MaLoai')
-                ->references('MaLoai')->on('LoaiSPs')
+                ->references('MaLoai')->on('LoaiSP')
                 ->onDelete('cascade');
             $table->string('TenSP');
             $table->double('Gia');
             $table->integer('SoLuong');
             $table->unsignedBigInteger('MaTG');
             $table->foreign('MaTG')
-                ->references('MaTG')->on('TacGias')
+                ->references('MaTG')->on('TacGia')
                 ->onDelete('cascade');
             $table->text('MoTa');
             $table->integer('SoTrang');
@@ -35,9 +35,9 @@ class CreateSanPhamsTable extends Migration
             $table->string('NXB');
             $table->year('NamXB');
             $table->string('DichGia');
-            $table->unsignedBigInteger('MaCTPH');
-            $table->foreign('MaCTPH')
-                ->references('MaCTPH')->on('CongTyPhatHanhs')
+            $table->unsignedBigInteger('MaNCC');
+            $table->foreign('MaNCC')
+                ->references('MaNCC')->on('NhaCungCap')
                 ->onDelete('cascade');
             $table->timestamps();
         });

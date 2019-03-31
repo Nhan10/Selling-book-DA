@@ -13,11 +13,11 @@ class CreateDonHangsTable extends Migration
      */
     public function up()
     {
-        Schema::create('DonHangs', function (Blueprint $table) {
+        Schema::create('DonHang', function (Blueprint $table) {
             $table->bigIncrements('MaDH');
             $table->unsignedBigInteger('MaND');
             $table->foreign('MaND')
-                ->references('MaND')->on('NguoiDungs')
+                ->references('MaND')->on('NguoiDung')
                 ->onDelete('cascade');
             $table->double('TongTien');
             $table->string('TenKH');
@@ -27,7 +27,7 @@ class CreateDonHangsTable extends Migration
             $table->dateTime('NgayGiao');
             $table->unsignedBigInteger('MaTT');
             $table->foreign('MaTT')
-                ->references('MaTT')->on('TrangThais')
+                ->references('MaTT')->on('TrangThai')
                 ->onDelete('cascade');
             $table->timestamps();
         });

@@ -13,7 +13,7 @@ class CreateLoaiNDsTable extends Migration
      */
     public function up()
     {
-        Schema::create('LoaiNDs', function (Blueprint $table) {
+        Schema::create('LoaiND', function (Blueprint $table) {
             $table->bigIncrements('MaLND');
             $table->string('TenLoai');
             $table->timestamps();

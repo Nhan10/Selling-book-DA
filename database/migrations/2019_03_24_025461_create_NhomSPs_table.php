@@ -13,12 +13,12 @@ class CreateNhomSPsTable extends Migration
      */
     public function up()
     {
-        Schema::create('NhomSPs', function (Blueprint $table) {
+        Schema::create('NhomSP', function (Blueprint $table) {
             $table->bigIncrements('MaNSP');
             $table->string('TenNSP');
             $table->unsignedBigInteger('MaDM');
             $table->foreign('MaDM')
-                ->references('MaDM')->on('DanhMucSPs')
+                ->references('MaDM')->on('DanhMucSP')
                 ->onDelete('cascade');
             $table->timestamps();
         });

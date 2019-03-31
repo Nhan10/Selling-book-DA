@@ -13,7 +13,7 @@ class CreateDanhMucSPsTable extends Migration
      */
     public function up()
     {
-        Schema::create('DanhMucSPs', function (Blueprint $table) {
+        Schema::create('DanhMucSP', function (Blueprint $table) {
             $table->bigIncrements('MaDM');
             $table->string('TenDM');
             $table->timestamps();

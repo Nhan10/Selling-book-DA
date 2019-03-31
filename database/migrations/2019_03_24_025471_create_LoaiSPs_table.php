@@ -13,12 +13,12 @@ class CreateLoaiSPsTable extends Migration
      */
     public function up()
     {
-        Schema::create('LoaiSPs', function (Blueprint $table) {
+        Schema::create('LoaiSP', function (Blueprint $table) {
             $table->bigIncrements('MaLoai');
             $table->string('TenLoai');
             $table->unsignedBigInteger('MaNSP');
             $table->foreign('MaNSP')
-                ->references('MaNSP')->on('NhomSPs')
+                ->references('MaNSP')->on('NhomSP')
                 ->onDelete('cascade');
             $table->timestamps();
         });

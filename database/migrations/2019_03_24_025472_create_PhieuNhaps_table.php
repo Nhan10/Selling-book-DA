@@ -13,11 +13,11 @@ class CreatePhieuNhapsTable extends Migration
      */
     public function up()
     {
-        Schema::create('PhieuNhaps', function (Blueprint $table) {
+        Schema::create('PhieuNhap', function (Blueprint $table) {
             $table->bigIncrements('MaPN');
             $table->unsignedBigInteger('MaND');
             $table->foreign('MaND')
-                ->references('MaND')->on('NguoiDungs')
+                ->references('MaND')->on('NguoiDung')
                 ->onDelete('cascade');
             $table->dateTime('NgayNhap');
             $table->timestamps();
